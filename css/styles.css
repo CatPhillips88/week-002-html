@@ -5,6 +5,7 @@ body {
 
   .jumbotron {
       text-align: center;
+      background-color:white;
       
   }
   .titleLogo {
@@ -24,4 +25,9 @@ body {
     text-align: center;
     font-size: 40px;
     margin: 50px auto;
+  }
+
+  .subtitle {
+    color: rgb(192, 193, 193);
+    text-align: center;
   }
