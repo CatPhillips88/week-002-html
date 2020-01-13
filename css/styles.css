@@ -3,5 +3,44 @@ body {
 }
 
 .jumbotron {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
+
+.Apptitle {
+    color: rgb(192, 193, 193);
+    padding-top: 20px;
+}
+
+#taskform {
+    background-color: rgb(239, 239, 239);
+    color: rgb(191, 191, 191);
+    border-style: none;
+    border-bottom-style: solid;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;  
+
+}
+
+.row {
+    padding-top: 30px;
+}
+
+
+.col-sm-1  {
+    display: flex; 
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+   
+i {
+    color:rgb(192, 193, 193);
+    font-size: 60px;
+    margin: auto;
+    align-items: center; 
+  }
+  
+
