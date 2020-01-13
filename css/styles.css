@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .jumbotron {
@@ -7,8 +7,10 @@ body {
 }
 
 .Apptitle {
-    color: rgb(192, 193, 193);
-    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    
+    
 }
 
 #taskform {
@@ -29,16 +31,18 @@ body {
 }
 
 
-.col-sm-1  {
+.button {
     display: flex; 
     padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: none;
+    flex-direction: row
   }
    
 i {
     color:rgb(192, 193, 193);
-    font-size: 60px;
+    font-size: 40px;
     margin: auto;
     align-items: center; 
   }
