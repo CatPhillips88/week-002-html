@@ -1,33 +1,7 @@
 body {
-    background-color: rgb(244, 249, 255);
     font-family: 'Poiret One', cursive;
-  }
+}
 
-  .jumbotron {
-      text-align: center;
-      background-color:white;
-      
-  }
-  .titleLogo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: rgba(173, 216, 230, 0.6);
-    margin: 50px auto;
-    border-style: solid;
-    border-color: aliceblue;
-    border-radius: 50%;
-    border-width: thick;
-  }
-  
-  .titleLogo h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 40px;
-    margin: 50px auto;
-  }
-
-  .subtitle {
-    color: rgb(192, 193, 193);
-    text-align: center;
-  }
+.jumbotron {
+    background-color: white;
+}
