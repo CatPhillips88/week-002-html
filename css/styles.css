@@ -1,9 +1,15 @@
 body {
-    font-family: 'Bebas Neue', cursive;
+ font-family: 'Bebas Neue', cursive;  
+ background-image: url(https://wallup.net/wp-content/uploads/2014/10/nature/Black_White_Sunset_Beach.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ 
 }
 
 .jumbotron {
     background-color: black;
+    opacity: 0.6;
 }
 
 .titleheader{
@@ -11,6 +17,74 @@ body {
    color: white;
 }
 
+.taskcount {
+    color: white; 
+}
+
+.list-group {
+    margin: auto;
+}
+
+.taskform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taskform {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.addButton {
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  background-color: Transparent;
+}
+
+.fa-plus-circle {
+    font-size: 30px;
+    color: black;
+}
+
+.list-group-item  {
+    font-size: 30px;
+}
+
 .list {
-    font-size: 20px;;
+    font-size: 20px;  
+}
+
+
+.col-12 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(247, 247, 247);
+    background-color: black;
+    opacity: 0.6;
+}
+
+.taskbuttons  {
+  background-color: Transparent;
+  border-radius: 50%;
+  outline: none;
+  border-style: none;
+  margin: auto;
+  font-size: 30px;  
+}
+
+.taskbuttons i {
+   color: white;
+}
+
+.tasklist { 
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
 }
