@@ -61,7 +61,7 @@ body {
 }
 
 
-.col-12 {
+.card {
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,5 +86,6 @@ body {
 .tasklist { 
   padding-bottom: 20px;
   padding-top: 20px;
+  
   
 }
